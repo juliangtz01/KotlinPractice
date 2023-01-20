@@ -58,7 +58,35 @@ fun main(args:Array<String>)
         println(topCandy[x])
     }
 
+    println()
 
+    // Functions
+    fun printHello()
+    {
+        println("HELLO WORLD!")
+    }
+
+    printHello()
+
+    println()
+
+    // to have a function return something, make sure to include : at after the second parentheses and the return type
+    fun addTwoNumbers(number1:Int, number2:Int):Int
+    {
+        return number1 + number2
+    }
+
+    println(addTwoNumbers(3,5))
+
+    println()
+
+    // Make a function that takes a name and age of a dog and returns a sentence about it
+    fun myDog(name:String, age:Int):String
+    {
+        return "The name of my dog is $name and he is $age years old"
+    }
+
+    println(myDog("Shadow", 3))
 
 
 }
