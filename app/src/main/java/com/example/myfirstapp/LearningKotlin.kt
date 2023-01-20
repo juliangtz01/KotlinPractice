@@ -88,5 +88,28 @@ fun main(args:Array<String>)
 
     println(myDog("Shadow", 3))
 
+    println()
+
+    // Classes
+
+    class Dog()
+    {
+        var name = ""
+        var dogAge = 0
+        var furColor = ""
+
+        fun dogInfo():String
+        {
+            return "$name is $dogAge years old and has $furColor fur"
+        }
+    }
+
+    var myDog = Dog()
+    myDog.dogAge = 8
+    myDog.name = "Fido"
+    myDog.furColor = "Brown"
+
+    println(myDog.dogInfo())
+
 
 }
