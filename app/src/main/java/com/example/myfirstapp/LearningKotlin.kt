@@ -8,4 +8,11 @@ fun main(args:Array<String>)
     var age = 29
 
     var candy:String = "Fun Dip"
+
+    // using math logic
+    var pi = 3.14
+    var radius = 5
+    var c = pi * radius * 2
+
+    println(c)
 }
