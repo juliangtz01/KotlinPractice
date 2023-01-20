@@ -14,5 +14,17 @@ fun main(args:Array<String>)
     var radius = 5
     var c = pi * radius * 2
 
-    println(c)
+//    println(c)
+
+    // if statements and booleans
+    var isTheLightOn = true
+
+    if(isTheLightOn)
+    {
+        println("Walk across the room")
+    }
+    else
+    {
+        println("Turn on the light")
+    }
 }
