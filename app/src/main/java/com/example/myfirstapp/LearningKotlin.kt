@@ -32,11 +32,33 @@ fun main(args:Array<String>)
 //    var topCandy = listOf("Fun Dip", "Snickers", "100 Grand Bar")
 //    var topCandy = arrayOf("Fun Dip", "Snickers", "100 Grand Bar")
 
+    println()
+
     // MutableList allows to expand the array something that cannot be done when using a Array
     var topCandy = mutableListOf("Fun Dip", "Snickers", "100 Grand Bar")
 
     // inside the parentheses first indicate the index of where you plan on adding the new item, followed by the item that is being added
     topCandy.add(0,"Black Thunder")
+
+    // Using For Loops
+    for(x in 1..100)
+    {
+//        println(x)
+    }
+
+    for(candy in topCandy)
+    {
+        println(candy)
+    }
+
+    println()
+
+    for(x in 0 .. topCandy.size-1)
+    {
+        println(topCandy[x])
+    }
+
+
 
 
 }
